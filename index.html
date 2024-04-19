@@ -1,112 +1,84 @@
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
-		<meta charset="utf-8" >
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<meta name="format-detection" content="telephone=no">
-		<!--Meta description and title-->
-		<meta name="description" content="Nina Carducci, photographe professionnelle à Bordeaux, réalise vos photos de portrait, de mariage, de concert, ou encore d'entreprise.">
-		<title>Nina Carducci: Photographe professionnelle à Bordeaux</title>
-		<!-- Style and script-->
-		<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
-		<link rel="stylesheet" href="./assets/style.min.css">
-		<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
-		<script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
-		<script src="./assets/maugallery.min.js" defer></script>
-		<script src="./assets/script.min.js" defer></script>
-		<!-- Rich Snippets -->
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+		<link
+		  rel="preload"
+		  as="style"
+		  media="(min-width:481px)"
+		  href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,400;1,700&family=Inter:wght@400;500&display=swap"
+		  onload="this.rel='stylesheet'"
+		/>
+		<title>Nina Carducci - Photographe Freelance | Page d’accueil</title>
+		<meta
+		  name="description"
+		  content="Réalisez vos Shootings, Retouches et Albums photos avec Nina Carducci. Découvrez ici son portfolio : spectacles, mariages, portraits, entrepreneuriat…"
+		/>
+	
+		<link rel="canonical" href="https://nina-carducci.github.io/" />
+		<link rel="icon" type="image/x-icon" href="./assets/images/icons/favicon.ico" />
+		<meta property="og:locale" content="fr_FR" />
+		<meta property="og:language" content="fr" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="Nina Carducci | Photographions vos moments les plus précieux" />
+		<meta property="og:description" content="Spectacles, mariages, portraits… Réalisons vos shootings, retouches et albums photos !" />
+		<meta property="og:url" content="https://nina-carducci.github.io/" />
+		<meta property="og:site_name" content="nina-carducci.github.io" />
+		<meta property="og:image" content="https://gustavewpm.github.io/OC-Nina-Carducci/assets/images/social-previews/nina.jpg" />
+		<meta name="twitter:card" content="summary_large_image" />
 		<script type="application/ld+json">
-				{
-				  "@context": "https://schema.org",
-				  "@type": "LocalBusiness",
-				  "name": "Nina Carducci: Photographe professionnelle à Bordeaux",
-				  "image": "https://camipro-cell.github.io/Nina_Carducci_Optimisation/assets/images/nina.small.png",
-				  "@id": "https://camipro-cell.github.io/Nina_Carducci_Optimisation/assets/images/nina.small.png",
-				  "url": "https://camipro-cell.github.io/Nina_Carducci_Optimisation/",
-				  "telephone": "+33 5 56 67 78 89",
-				  "priceRange": "50€ - 400€",
-				  "address": {
-					"@type": "PostalAddress",
-					"streetAddress": "68 avenue Alsace-Lorraine",
-					"addressLocality": "Bordeaux",
-					"postalCode": "33200",
-					"addressCountry": "FR"
-				  },
-				  "geo": {
-					"@type": "GeoCoordinates",
-					"latitude": "44.8466732",
-					"longitude": "-0.6065805"
-				  },
-				  "openingHoursSpecification": [
-				  {
-					"@type": "OpeningHoursSpecification",
-					"dayOfWeek": [
-						"Lundi",
-						"Mardi",
-					  	"Mercredi",
-					  	"Jeudi",
-					  	"Vendredi"
-					],
-					"opens": "10:00",
-					"closes": "19:00"
-					}
-				  ]
-				}
+		  {
+			"@context": "http://schema.org/",
+			"@graph": [
+			  {
+				"@type": "WebSite",
+				"@id": "https://nina-carducci.github.io/#website",
+				"url": "https://nina-carducci.github.io/",
+				"name": "Nina Carducci",
+				"description": "Photographe freelance",
+				"inLanguage": "fr-FR"
+			  },
+			  {
+				"@type": "WebPage",
+				"@id": "https://nina-carducci.github.io/#webpage",
+				"url": "https://nina-carducci.github.io/",
+				"name": "Nina Carducci - Photographe | Page d’accueil",
+				"isPartOf": { "@id": "https://nina-carducci.github.io/#website" },
+				"description": "Réalisez vos Shootings, Retouches et Albums photos avec Nina Carducci. Découvrez ici son portfolio : spectacles, mariages, portraits, entrepreneuriat…",
+				"inLanguage": "fr-FR",
+				"potentialAction": [{ "@type": "ReadAction", "target": ["https://nina-carducci.github.io/"] }]
+			  },
+			  {
+				"@type": "ProfessionalService",
+				"currenciesAccepted": "EUR",
+				"openingHours": "Mo,Tu,We,Th,Fr 10:00-19:00",
+				"paymentAccepted": "Cash, Credit Card",
+				"priceRange": "50-400 €",
+				"address": {
+				  "@type": "PostalAddress",
+				  "addressCountry": "FR",
+				  "addressLocality": "Bordeaux, France",
+				  "postalCode": "F-33200",
+				  "streetAddress": "68 avenue Alsace-Lorraine"
+				},
+				"areaServed": { "@type": "AdministrativeArea", "name": ["Île de France", "Bordeaux"] },
+				"email": "ninacarducci@openclassrooms.com",
+				"legalName": "Nina Carducci",
+				"numberOfEmployees": { "@type": "QuantitativeValue", "value": 1 },
+				"slogan": "Capturez vos moments les plus précieux et gardez un souvenir impérissable.",
+				"telephone": "+33556677889",
+				"description": "Photographe freelance",
+				"name": "Nina Carducci",
+				"url": "https://nina-carducci.github.io/"
+			  }
+			]
+		  }
 		</script>
-		<script type="application/ld+json">
-				{
-				  "@context": "https://schema.org",
-				  "@type": "FAQPage",
-				  "mainEntity": [{
-					"@type": "Question",
-					"name": "Fournissez-vous des services de retouche photos?",
-					"acceptedAnswer": {
-					  "@type": "Answer",
-					  "text": "Oui je fais les retouches photo sur demande."
-					}
-				  }, {
-					"@type": "Question",
-					"name": "Comment puis-je réserver une séance photo avec vous?",
-					"acceptedAnswer": {
-					  "@type": "Answer",
-					  "text": "Pour réserver une séance photo avec moi, vous pouvez me contacter par téléphone, ou en venant me rencontrer à mon studio de photographe."
-					}
-				  }, {
-					"@type": "Question",
-					"name": "Quels sont les horaires de votre studio de photographe?",
-					"acceptedAnswer": {
-					  "@type": "Answer",
-					  "text": "Il est ouvert du lundi au vendredi de 10:00 à 19:00."
-					}
-				  }, {
-					"@type": "Question",
-					"name": "Quel est votre numéro de téléphone?",
-					"acceptedAnswer": {
-					  "@type": "Answer",
-					  "text": "Je suis joignable pour tous renseignements au +33 5 56 67 78 89."
-					}
-				  }, {
-					"@type": "Question",
-					"name": "Quel type de photo faites-vous?",
-					"acceptedAnswer": {
-					  "@type": "Answer",
-					  "text":"Je suis Photographe pour les portraits, les mariages, les concerts, et les entreprises."}
-					}]
-				}
-		</script>
-		<!-- Twitter meta tags -->
-		<meta name="twitter:card" content="summary">
-		<meta name="twitter:title" content="Nina Carducci: Photographe professionnelle à Bordeaux">
-  		<meta name="twitter:description" content="Nina Carducci, photographe professionnelle à Bordeaux, réalise vos photos de portrait, de mariage, de concert, ou encore d'entreprise.">
-		<meta name="twitter:url" content="https://camipro-cell.github.io/Nina_Carducci_Optimisation/">
-		<meta name="twitter:image" content="https://camipro-cell.github.io/Nina_Carducci_Optimisation/./assets/images/nina.small.png">
-		<!-- Open Graph meta tags FB -->
-		<meta property="og:title" content="Nina Carducci: Photographe professionnelle à Bordeaux">
-		<meta property="og:site_map" content="Nina Carducci: Photographe professionnelle à Bordeaux">
-		<meta property="og:type" content="website">
-		<meta property="og:url" content="https://camipro-cell.github.io/Nina_Carducci_Optimisation/">
-		<meta property="og:image" content="https://camipro-cell.github.io/Nina_Carducci_Optimisation/assets/images/nina.small.png">
-		<meta property="og:description" content="Nina Carducci, photographe professionnelle à Bordeaux, réalise vos photos de portrait, de mariage, de concert, ou encore d'entreprise.">
+	
+		<link rel="stylesheet" href="./assets/code/css/style.css" />
+		<script src="./assets/code/js/maugalleryLauncher.js" async></script>
+		<script src="./assets/code/js/ninaNavbar.js" async defer></script>
 	</head>
 <body>
 	<header class="top-header">
